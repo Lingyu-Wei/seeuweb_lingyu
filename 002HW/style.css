@@ -1,0 +1,40 @@
+.baiduPic {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.sectionButtons {
+    text-align: center;
+    padding-top: 70px;
+    font-size: 20px;
+}
+
+#inputLine {
+    margin-top: 25px;
+	display: flex;
+	justify-content: center;
+}
+
+.moreSecButtons1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.moreSecButtons2 {
+    text-align: center;
+    padding-top: 250px;
+    font-size: 20px;
+}
+
+.moreSecButtons3 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.footNote {
+    text-align: center;
+    color: grey;
+}
+
