@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<title>SeeU Web 005 Login Page</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+    
+    <div>
+      
+      <form>
+    
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+    
+          <div>
+            <label for="psw"><b>Password</b>
+              <input type="password" placeholder="Enter Password" id="pwd">
+            </label>
+            <img src="./close.png" id="eye" style="float: right;">
+          </div>
+            
+          <script>
+
+            var flag = 0;
+    
+            var eye = document.getElementById('eye');
+            var pwd = document.getElementById('pwd');
+    
+            eye.onclick = function() {
+                if(flag == 0){
+                    pwd.type = 'text';
+                    eye.src = 'open.png';
+                    flag = 1;
+                }else{
+                    pwd.type = 'password';
+                    eye.src = 'close.png';
+                    flag = 0;
+                }
+                
+            }
+    
+          </script>
+
+
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+    
+        <div class="container">
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+
+</body>
+
+</html>
